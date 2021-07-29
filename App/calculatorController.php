@@ -11,7 +11,7 @@ if ( isset($_POST['submit']) ) {
         }
 
         if ( $_POST['operators'] == "minus" ) {
-            $result = $calculator->subtarct($_POST['number1'], $_POST['number2']);
+            $result = $calculator->subtract($_POST['number1'], $_POST['number2']);
         }
 
         if ( $_POST['operators'] == "multiply" ) {
