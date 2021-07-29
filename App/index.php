@@ -11,6 +11,7 @@
     <div class="calculator">
         <form action="" method="POST">
             <div class="display"> 
+            <?php require_once "./calculatorController.php";?>
             </div>
         <div class="control">
             <input type="text" name="number1" id="number1">
